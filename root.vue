@@ -1,5 +1,5 @@
 <template>
-  <div class="foo">
+  <div class="root">
     <h1 class="header">Rootコンポーネント</h1>
     <p>これはRootコンポーネントです。</p>
     <foo/>

@@ -1,17 +1,25 @@
 <template>
-  <p class="message">メッセージ:{{ msg }}</p>
+  <div class="bar">
+    <h1 class="header">Barコンポーネント</h1>
+    <p>これはBarコンポーネントです。</p>
+    <foo class="header" />
+  </div>
 </template>
 <script>
+import Foo from './foo'
 export default {
-  data(){
-    return{
-      msg:'こんにちは'
-    }
+  components:{
+    Foo
   }
 }
 </script>
 <style scoped>
-.message{
-  color:#42b983;
+.bar{
+  border:solid 1px red;
+  margin:4px;
+  padding: 4px;
+}
+.header{
+  font-size: 125%;
 }
 </style>
