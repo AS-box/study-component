@@ -4,11 +4,6 @@
     <p>これはFooコンポーネントです。</p>
   </div>
 </template>
-<style>
-p{
-  text-decoration: underline;
-}
-</style>
 <style scoped>
 .foo{
   border:solid 1px green;
@@ -16,6 +11,6 @@ p{
   padding: 4px;
 }
 .header{
-  font-size: 150%;
+  color:green;
 }
 </style>

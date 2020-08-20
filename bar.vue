@@ -2,7 +2,7 @@
   <div class="bar">
     <h1 class="header">Barコンポーネント</h1>
     <p>これはBarコンポーネントです。</p>
-    <foo class="header" />
+    <foo />
   </div>
 </template>
 <script>
@@ -20,6 +20,6 @@ export default {
   padding: 4px;
 }
 .header{
-  font-size: 125%;
+  color: red;
 }
 </style>
